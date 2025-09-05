@@ -19,6 +19,10 @@ body {
   background-size: cover;
   background-position: center;
 }
+.bg-purple {
+  background-color: #530dd3 !important;
+}
+
 
 /* Contacto */
 
