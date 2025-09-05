@@ -40,4 +40,42 @@ body {
     width: 100px;
   }
 
+  /* Botones morados personalizados para toda la web */
+
+.btn-purple {
+  background-color: #530dd3; /* morado base */
+  border-color: #530dd3;
+  color: #fff;
+}
+
+.btn-purple:hover,
+.btn-purple:focus,
+.btn-purple:active {
+  background-color: #4200a8; /* morado más oscuro al pasar el mouse */
+  border-color: #4200a8;
+  color: #fff;
+}
+
+.btn-purple:disabled,
+.btn-purple.disabled {
+  background-color: #8a67e3; /* morado más claro para deshabilitado */
+  border-color: #8a67e3;
+  color: #fff;
+}
+
+/* Botones outline morado */
+.btn-outline-purple {
+  color: #530dd3;
+  border-color: #530dd3;
+  background-color: transparent;
+}
+
+.btn-outline-purple:hover,
+.btn-outline-purple:focus,
+.btn-outline-purple:active {
+  background-color: #530dd3;
+  color: #fff;
+  border-color: #4200a8;
+}
+
 }
